@@ -1,4 +1,6 @@
 import CssBaseline from '@mui/material/CssBaseline';
+
+// @ts-expect-error No declaration type available
 import ReactWeather, { useVisualCrossing } from 'react-open-weather';
 
 import AppTheme from '../material-ui/shared-theme/AppTheme';
